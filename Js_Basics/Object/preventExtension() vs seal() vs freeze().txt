@@ -1,0 +1,13 @@
+The Object.seal() method is used to seal an object, which means that it prevents the addition or removal of properties from that object.However, the values of the existing properties can still be modified.
+USE CASES: 
+ When you want to prevent the addition or deletion of 
+    properties, but still allow property value changes.
+
+The Object.freeze() method takes the concept of immutability a step further. When you freeze an object, it becomes completely immutable. This means that not only can you not add or delete properties, but you also cannot modify the values of existing properties.
+
+USE CASE: When you need to create objects with constant, unchanging data.
+Ensuring that data remains consistent and cannot be unintentionally modified.
+
+The Object.preventExtensions() method is used to prevent the addition of new properties to an object.however modfiying or deleting of existing properties are allowed.
+USE CASE: 
+ When you want to prevent new properties from being accidentally added to an object while still allowing modification and deletion of existing properties.
