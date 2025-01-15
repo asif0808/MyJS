@@ -1,0 +1,6 @@
+The map(), reduce() and filter() are array functions that transform the array according to the applied function and return the updated array. They are used to write simple, short and clean codes for modifying an array instead of using the loops.
+map() method: It applies a given function on all the elements of the array and returns the updated array. It is the simpler and shorter code instead of a loop.
+
+reduce() method: It reduces all the elements of the array to a single value by repeatedly applying a function. It is an alternative of using a loop and updating the result for every scanned element.
+
+filter() method: It filters the elements of the array that return false for the applied condition and returns the array which contains elements that satisfy the applied condition.
